@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(14, 14, 14);
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+body .page{
+    margin: 0px;
+}
+/* Barre de navigation */
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background:url(img/font\ -\ 1.png);
+    padding: 20px;
+
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+}
+nav .onglets a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .buttons button{
+    padding: 13px 20px;
+    color: rgb(255, 255, 255);
+    border:none;
+    background-color: rgb(185, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    outline:none;
+}
+/* Fin de la barre de navigation */
+
+/* Debut du header */
+header{
+    margin-top: 40px;
+    background:url('img/font\ -\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1920px 708px;  
+}
+header h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 150px;
+    padding: 300px 300px;
+}
+
+/* Pied de page */
+footer h5{
+    background-color: #000000;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+/* Fin du pied de page */
+
+/* Chaine */
+
+img {
+    margin: 150px 215px;
+    width: 1500px;
+
+}
+
+
+
